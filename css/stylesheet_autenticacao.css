@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fffbe9;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTAINER */
+.container{
+    background-color: #98b94a;
+    border-radius: 50px;
+    width: 27%;
+    height: 60%;
+    margin-left: 500px;
+    margin-top: 80px;
+    padding: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* PERFIL */
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.perfil-foto img{
+    height: 100px;
+}
+.perfil-titulo{
+    
+}
+
+/* FORMULÁRIO */
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+form input{
+    margin-top: 10px;
+    height: 35px;
+    width: 370px;
+    border-radius: 10px;
+    border-color: #4c683f;
+}
+.button{
+    background-color: #4c683f;
+    color: #ffffff;
+    border-color: #4c683f;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* LINK PARA CADASTRO */
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.cadastro a{
+    margin-top: 0px;
+    color: #3c5231;
+}
